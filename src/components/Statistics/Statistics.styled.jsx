@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-export { ReportWrap, StatisticItem, StatisticLabel, StatisticValue };
 
 const ReportWrap = styled.div`
   margin-top: 10px;
@@ -30,3 +29,5 @@ const StatisticLabel = styled.span`
 const StatisticValue = styled.span`
   font-weight: normal;
 `;
+
+export { ReportWrap, StatisticItem, StatisticLabel, StatisticValue };

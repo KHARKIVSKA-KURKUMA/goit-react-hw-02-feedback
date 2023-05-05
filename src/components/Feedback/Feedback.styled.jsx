@@ -1,5 +1,4 @@
 const { default: styled } = require('styled-components');
-export { BtnWrap, FeedbackBtn };
 
 const BtnWrap = styled.div`
   display: flex;
@@ -38,3 +37,5 @@ const FeedbackBtn = styled.button`
     opacity: 0.8;
   }
 `;
+
+export { BtnWrap, FeedbackBtn };
