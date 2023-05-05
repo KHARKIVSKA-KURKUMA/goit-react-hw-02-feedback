@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const ReportWrap = styled.div`
-  margin-top: 10px;
+  margin: 10px auto 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,6 +12,7 @@ const ReportWrap = styled.div`
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   font-size: 16px;
   line-height: 1.5;
+  max-width: 500px;
 `;
 const StatisticItem = styled.div`
   display: flex;
